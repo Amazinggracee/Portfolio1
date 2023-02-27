@@ -53,6 +53,41 @@ select:focus {
   box-sizing: border-box;
 }
 
+/* -----------------------------Animation----------------------- */
+@media (min-width: 375px) {
+  .anim {
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: circle;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @keyframes my-animation {
+    from {
+      background-color: none;
+      width: 100%;
+      left: 0;
+      top: 45px;
+    }
+
+    to {
+      background-color: none;
+      width: 50%;
+      left: 600px;
+      top: 45px;
+    }
+  }
+}
+
 /* ------------------------------------Nav----------------------------- */
 
 .container {
@@ -1102,11 +1137,45 @@ footer .socialFoot {
     margin-top: 10px;
     margin-left: 0;
   }
+
+  /* -----------------------------Animation----------------------- */
+
+  .anim {
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: circle;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @keyframes my-animation {
+    from {
+      background-color: none;
+      width: 100%;
+      left: 150px;
+      top: 145px;
+    }
+
+    to {
+      background-color: none;
+      width: 50%;
+      left: 600px;
+      top: 145px;
+    }
+  }
 }
 
 /* -----------------------------Animation----------------------- */
 
-/* .anim {
+.anim {
   animation-name: my-animation;
   animation-duration: 3s;
   animation-direction: alternate;
@@ -1126,12 +1195,14 @@ footer .socialFoot {
   from {
     background-color: none;
     width: 100%;
-    top: 200px;
+    left: 150px;
+    top: 145px;
   }
 
   to {
     background-color: none;
     width: 50%;
-    top: 400px;
+    left: 600px;
+    top: 145px;
   }
-} */
+}
