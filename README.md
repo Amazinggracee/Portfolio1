@@ -32,11 +32,10 @@ This is my design portfolio where I share some of my design work.
 
 In this project:
 
-- [ ] I made sure that there are no linter errors.
+- [ ] For this project, we added the JavaScript + HTML + CSS linter.
 - [ ] I made sure that you used the correct GitHub flow.
 - [ ] I made sure that you documented your work in a professional way.
-- [ ] Follow our list of best practices for HTML & CSS.
-- [ ] I understood how to parse a Figma design to create a UI.
+- [ ] Follow our list of best practices for HTML, CSS and JavaScript.
 - [ ] I used Flexbox to place elements in the page.
 - [ ] I built a personal portfolio site.
 - [ ] I used images and backgrounds to enhance the look of my website.
@@ -45,28 +44,31 @@ In this project:
 - [ ] I understood how to parse a Figma design to create a UI.
 - [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
 - [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
-- [ ]I did not implement any functionality that requires JavaScript.
+
+- [ ]I did not implement any functionality that requires JavaScript
 - [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
-- [ ] Understand the usefulness of transitions and animations.
+- [ ] I the usefulness of transitions and animations.
+- [ ]I implemented functionality that requires JavaScript.
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
 - HTML
 - CSS
+- Javascript
 
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
+### Tech Stack <a name="tech-stack">HTML, CSS and JavaScript</a>
 
-The entire project was built with only HTML5 and CSS3.
+The entire project was built with only HTML5, CSS3 and JavaScript.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** My Porfolio, built with CSS and Html.
+- **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
-
+- **[key_feature_5]** Portfolio - mobile menu.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -86,7 +88,7 @@ The entire project was built with only HTML5 and CSS3.
 In order to run this project you need:
 
 1. A computer with a code writer, I recommend Visual Studio Code.
-2. A pre-knowledge of HTML and CSS.
+2. A pre-knowledge of HTML,CSS and JavaScript.
 
 <!-- AUTHORS -->
 
@@ -116,8 +118,7 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]** The desktop version.
-- [ ] **[new_feature_2]** javascript
+- [ ] **[new_feature_1]** Add more behaviour via Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
