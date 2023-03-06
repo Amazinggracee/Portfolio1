@@ -35,7 +35,7 @@ In this project:
 - [ ] I made sure that there are no linter errors.
 - [ ] I made sure that you used the correct GitHub flow.
 - [ ] I made sure that you documented your work in a professional way.
-- [ ] Follow our list of best practices for HTML & CSS.
+- [ ] Follow our list of best practices for HTML, CSS and JavaScript.
 - [ ] I used Flexbox to place elements in the page.
 - [ ] I built a personal portfolio site.
 - [ ] I used images and backgrounds to enhance the look of my website.
