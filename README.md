@@ -54,16 +54,17 @@ In this project:
 
 - HTML
 - CSS
+- Javascript
 
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
+### Tech Stack <a name="tech-stack">HTML, CSS and JavaScript</a>
 
-The entire project was built with only HTML5 and CSS3.
+The entire project was built with only HTML5, CSS3 and JavaScript.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** My Porfolio, built with CSS and Html.
+- **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
@@ -87,7 +88,7 @@ The entire project was built with only HTML5 and CSS3.
 In order to run this project you need:
 
 1. A computer with a code writer, I recommend Visual Studio Code.
-2. A pre-knowledge of HTML and CSS.
+2. A pre-knowledge of HTML,CSS and JavaScript.
 
 <!-- AUTHORS -->
 
@@ -117,8 +118,7 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]** The desktop version.
-- [ ] **[new_feature_2]** javascript
+- [ ] **[new_feature_1]** Add more behaviour via Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
