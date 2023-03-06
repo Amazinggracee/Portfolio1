@@ -1,9 +1,9 @@
 /* ---------------------font-family----------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 /* -----------------------colors used in this project--------------------------- */
 
@@ -183,19 +183,6 @@ select:focus {
   padding-left: 3%;
 }
 
-#intro p {
-  display: flex;
-  width: 70vw;
-  height: 150px;
-  font-family: "Poppins", "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white);
-  padding-left: 1rem;
-}
-
 #works p {
   display: flex;
   width: 80vw;
@@ -208,6 +195,19 @@ select:focus {
   color: var(--navy-blue);
   margin-top: -3rem;
   margin-left: -3rem;
+}
+
+#intro p {
+  display: flex;
+  width: 70vw;
+  height: 150px;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+  padding-left: 1rem;
 }
 
 .modalPop .modalDes #btnContact p {
@@ -384,7 +384,7 @@ a {
 
 nav > a {
   color: var(--white);
-  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
   font-weight: 700;
   font-size: 18px;
   align-items: center;
@@ -413,26 +413,10 @@ nav > a {
   margin: auto;
 }
 
-
 #intro h1 {
   width: 80vw;
   height: 64px;
   font-family: "Crete Round", "Times New Roman", Times, serif;
-
-#intro .introDiv {
-  display: flex;
-  flex-direction: column;
-}
-
-#intro .introDiv div {
-  margin-top: -36px;
-}
-
-#intro .introDiv h1 {
-  width: 327px;
-  height: 124px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -443,81 +427,18 @@ nav > a {
   padding-left: 1rem;
 }
 
-
 #intro h5 {
   width: 70vw;
   height: 10px;
   font-family: "Roboto", "Times New Roman", Times, serif;
-
-#intro .introDiv h5 {
-  width: 80vw;
-  height: 27px;
-  font-family: 'Roboto', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
-
   display: flex;
   align-items: center;
   color: var(--white);
   padding-left: 1rem;
-
-  margin-top: 0;
-  color: var(--white2);
-}
-
-.projectM p {
-  width: 295px;
-  height: 87px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white);
-  padding-left: 5px;
-}
-
-.meDiv p {
-  width: 327px;
-  height: 148px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white5);
-}
-
-.imgBg p {
-  width: 80vw;
-  height: auto;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  color: var(--navy-blue);
-  margin-top: -22px;
-  text-align: justify;
-  padding-left: 25px;
-}
-
-#intro .introDiv p {
-  width: 80vw;
-  height: 123px;
-  font-family: 'Poppins', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--white2);
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-
 }
 
 .social {
@@ -555,7 +476,7 @@ nav > a {
 #works .worksDiv h2 {
   width: 80vw;
   height: 83px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -577,17 +498,10 @@ nav > a {
   margin-left: 6rem;
 }
 
-
 #works h5 {
   width: 90vw;
   height: 44px;
   font-family: "Crete Round", "Times New Roman", Times, serif;
-
-.imgBg h3 {
-  width: 80vw;
-  height: 36px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -621,7 +535,6 @@ nav > a {
   flex-grow: 0;
 }
 
-
 .project1 {
   width: 100%;
   height: 48px;
@@ -632,21 +545,6 @@ nav > a {
   font-weight: 700;
   font-size: 17px;
   letter-spacing: 0.03em;
-
-.imgBg ul li {
-  border: 1px solid var(--grey5);
-  width: 30%;
-  height: 30px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: var(--navy-blue);
-  text-align: center;
-  padding: 2px;
-  border-radius: 3px;
-
 }
 
 .project1:hover {
@@ -670,13 +568,7 @@ nav > a {
   width: 124px;
   height: 48px;
   background: var(--orange);
-
   font-family: "Inter", "Times New Roman", Times, serif;
-
-  margin-left: 30px;
-  letter-spacing: 0.03em;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -689,20 +581,7 @@ nav > a {
   margin-left: -3.2rem;
 }
 
-
 /* ------------------------------------Project samples--------------------------- */
-
-.projectM .project {
-  width: 100%;
-  margin-left: 0;
-}
-
-.project:hover {
-  color: var(--orange);
-  background: var(--white);
-  border: 1px solid var(--orange);
-}
-
 
 .allProjects {
   background-color: var(--white);
@@ -730,7 +609,7 @@ nav > a {
 .projectM .alone {
   width: 295px;
   height: 81px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -749,18 +628,10 @@ nav > a {
   margin: auto;
 }
 
-
 .allProjects h3 {
   width: 295px;
   height: 81px;
   font-family: "Crete Round", "Times New Roman", Times, serif;
-
-.projectM ul li {
-  background-color: rgba(255, 255, 255, 0.24);
-  width: 30%;
-  height: 30px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -769,7 +640,6 @@ nav > a {
   margin-top: 5rem;
   padding-left: 1rem;
 }
-
 
 .techUse {
   display: flex;
@@ -785,14 +655,6 @@ nav > a {
   width: auto;
   height: 40px;
   border: none;
-
-.projectM {
-  background-image: url(./Images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-
 }
 
 /* ------------------------------------about------------------------------------- */
@@ -831,24 +693,10 @@ nav > a {
   color: var(--white);
 }
 
-
 .btnAbout:hover {
   background: var(--white2);
   color: var(--orange);
   border: 1px solid var(--orange);
-
-.meDiv h2 {
-  display: flex;
-  width: 327px;
-  height: 79px;
-  font-family: 'Crete Round', 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: var(--orange2);
-
 }
 
 .btnAbout:active {
@@ -917,11 +765,7 @@ footer ul {
 .mainLang div ul li {
   width: 100%;
   height: 24px;
-
   font-family: "Inter", 'Times New Roman', Times, serif;
-
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -929,21 +773,7 @@ footer ul {
   display: flex;
   align-items: center;
   text-align: center;
-
   padding-bottom: 12%;
-=======
-  color: var(--white);
-}
-
-.mainLang ul .boldH {
-  font-size: 25px;
-  font-weight: 700;
-  font-family: 'Roboto', 'Times New Roman', Times, serif;
-}
-
-.mainLang ul li img {
-  padding-right: 10px;
-
 }
 
 /* ------------------------------------form-------------------------------------- */
@@ -960,16 +790,9 @@ footer ul {
 }
 
 #contact h3 {
-
   width: 85vw;
   height: 216px;
   font-family: "Inter", "Times New Roman", Times, serif;
-
-  display: flex;
-  width: 90%;
-  height: 260px;
-  font-family: 'Inter', 'Times New Roman', Times, serif;
-
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1134,18 +957,8 @@ footer ul {
     margin: auto;
   }
 
-
   .btn-hamburger {
     display: none;
-
-  .container > a {
-    color: var(--white);
-    font-family: 'inter', 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 30px;
-    border: none;
-    background: none;
-
   }
 
   .showNot {
@@ -1218,12 +1031,6 @@ footer ul {
   #intro h1 {
     width: 30vw;
     height: auto;
-
-
-    font-family: 'Crete Round', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 400;
-
     font-size: 72px;
     line-height: 60px;
     margin-top: 5rem;
@@ -1233,35 +1040,14 @@ footer ul {
   #intro h5 {
     width: 30vw;
     height: auto;
-
     font-size: 30px;
     margin-top: -3rem;
-
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    display: flex;
-    align-items: center;
-    color: var(--white2);
-    margin-top: 0;
-  }
-
-  .imgBg p {
-    margin-top: 0;
-    margin-left: 50%;
-    width: 40vw;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-
   }
 
   .allProjects p {
     width: 295px;
     height: 87px;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-family: "Inter", "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1270,35 +1056,9 @@ footer ul {
     padding-left: 3%;
   }
 
-
   #intro p {
     width: 40vw;
     margin-top: -2rem;
-
-  .meDiv p {
-    width: 40%;
-    height: auto;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--white5);
-  }
-
-  #intro .introDiv p {
-    width: 40vw;
-    height: 123px;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--white2);
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
   }
 
   .social {
@@ -1373,13 +1133,8 @@ footer ul {
 
   #works h5 {
     width: 327px;
-
     height: 36px;
     font-family: "Crete Round", "Times New Roman", Times, serif;
-
-    height: 83px;
-    font-family: 'Crete Round', 'Times New Roman', Times, serif;
-
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1603,7 +1358,7 @@ footer ul {
   .allProjects h3 {
     width: 295px;
     height: 81px;
-    font-family: 'Crete Round', 'Times New Roman', Times, serif;
+    font-family: "Crete Round", "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1618,25 +1373,6 @@ footer ul {
     flex-direction: row;
     gap: 5%;
     list-style: none;
-
-
-    margin-top: 58px;
-  }
-
-  .projectM ul li {
-    background-color: rgba(255, 255, 255, 0.24);
-    width: 30%;
-    height: 30px;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: var(--white);
-    text-align: center;
-    padding: 2px;
-    border-radius: 3px;
-
   }
 
   .techUse li button {
@@ -1843,12 +1579,6 @@ footer ul {
   #contact form input {
     border-bottom: 1px solid var(--dark);
     font-family: "Inter", "Times New Roman", Times, serif;
-
-  .mainLang ul li {
-    width: 100%;
-    height: 24px;
-    font-family: 'Inter', 'Times New Roman', Times, serif;
-
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1861,12 +1591,6 @@ footer ul {
 
   #contact form .first-last div input {
     width: 22vw;
-
-  .mainLang ul .boldH {
-    font-size: 25px;
-    font-weight: 700;
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
-
   }
 
   #contact h3 {
