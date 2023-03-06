@@ -36,7 +36,6 @@ In this project:
 - [ ] I made sure that you used the correct GitHub flow.
 - [ ] I made sure that you documented your work in a professional way.
 - [ ] Follow our list of best practices for HTML & CSS.
-- [ ] I understood how to parse a Figma design to create a UI.
 - [ ] I used Flexbox to place elements in the page.
 - [ ] I built a personal portfolio site.
 - [ ] I used images and backgrounds to enhance the look of my website.
@@ -45,9 +44,9 @@ In this project:
 - [ ] I understood how to parse a Figma design to create a UI.
 - [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop:        >=768px).
 - [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
-- [ ]I did not  implement any functionality that requires JavaScript.
 - [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
-- [ ] Understand the usefulness of transitions and animations.
+- [ ]I implemented functionality that requires JavaScript.
+- [ ] I the usefulness of transitions and animations.
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
@@ -66,7 +65,7 @@ The entire project was built with only HTML5 and CSS3.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
-
+- **[key_feature_5]** Portfolio - mobile menu.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
