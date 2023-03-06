@@ -289,7 +289,7 @@ document.querySelectorAll('.prohover').forEach((el, index) => {
         <h2>
           <span class="pTitle">${projects[index].mobTitle}</span>
           <span class="dTitle"> ${projects[index].deskTitle}</span>
-          <i class="closeB closeIcon material-icons" id="close-Btn">X</i>
+          <i class="closeB closeIcon material-icons" id="close-Btn">close</i>
         </h2>
         <ul class="modalTech">
         <li><button>${projects[index].technologies[0]}</button></li>
