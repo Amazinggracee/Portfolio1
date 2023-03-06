@@ -131,9 +131,9 @@ a {
 .btn-hamburger .closeIcon {
   display: none;
   font-size: 18px;
-  padding-right: 10%;
+  padding-right: 7%;
   position: absolute;
-  top: 1rem;
+  top: 3rem;
   right: 0;
 }
 
@@ -149,7 +149,7 @@ a {
   padding-top: 100px;
   margin-top: 0;
   align-items: center;
-  margin-left: -5rem;
+  margin-left: -6rem;
 }
 
 .showMenu li {
