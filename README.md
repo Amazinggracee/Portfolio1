@@ -1,4 +1,3 @@
-
 <div align="center">
 
   <h3 id = "readme-top"><b>PORTFOLIO README </b></h3>
@@ -32,6 +31,7 @@ This is my design portfolio where I share some of my design work.
 # 📖 [Online link porfolio] <a name="about-project"></a>
 
 In this project:
+
 - [ ] I made sure that there are no linter errors.
 - [ ] I made sure that you used the correct GitHub flow.
 - [ ] I made sure that you documented your work in a professional way.
@@ -43,9 +43,9 @@ In this project:
 - [ ] I created a form with HTML5 validations.
 - [ ] I understood the importance of UX.
 - [ ] I understood how to parse a Figma design to create a UI.
-- [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop:        >=768px).
+- [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
 - [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
-- [ ]I did not  implement any functionality that requires JavaScript.
+- [ ]I did not implement any functionality that requires JavaScript.
 - [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
 - [ ] Understand the usefulness of transitions and animations.
 
@@ -81,17 +81,16 @@ The entire project was built with only HTML5 and CSS3.
 
 ## 💻 Getting Started <a name="getting-started">Portfolio Repository</a>
 
-
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need:
+
 1. A computer with a code writer, I recommend Visual Studio Code.
 2. A pre-knowledge of HTML and CSS.
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors">Authors</a>
-
 
 👤 **Amarachi Dimkpa**
 
@@ -105,6 +104,12 @@ In order to run this project you need:
 - Twitter: [@ramgt001](https://twitter.com/tsheporamantso)
 - LinkedIn: [Tshepo Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
+👤 **Rushema Anicet**
+
+- GitHub: [@rushemaa](https://github.com/rushemaa)
+- Twitter: [@rushemaa](https://twitter.com/rushemaa)
+- LinkedIn: [Rushema Anicet](https://www.linkedin.com/in/rushema-anicet-77494088/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -113,7 +118,6 @@ In order to run this project you need:
 
 - [ ] **[new_feature_1]** The desktop version.
 - [ ] **[new_feature_2]** javascript
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +143,7 @@ If you like this project feel free to go through it and comment.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Students that I have collaborated with since I started this journey. 
+I would like to thank Microverse Students that I have collaborated with since I started this journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
