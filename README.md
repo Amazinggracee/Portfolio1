@@ -66,15 +66,14 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
+### Key Features <a name="key-features">
 - **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
 - **[key_feature_6]** Portfolio: details popup window.
-
+</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
