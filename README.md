@@ -32,7 +32,7 @@ This is my design portfolio where I share some of my design work.
 
 In this project:
 
-- [ ] I made sure that there are no linter errors.
+- [ ] For this project, we added the JavaScript + HTML + CSS linter.
 - [ ] I made sure that you used the correct GitHub flow.
 - [ ] I made sure that you documented your work in a professional way.
 - [ ] Follow our list of best practices for HTML, CSS and JavaScript.
