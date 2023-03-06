@@ -928,12 +928,13 @@ footer .socialFoot {
   /* ----------------------projects------------------------ */
 
   #mobProjects {
-    display: grid;
+     display: grid;
     grid-template-columns: 31% 31% 31%;
     padding: 10px;
     gap: 1rem;
     justify-content: center;
-    margin-top: -20px;
+    width: 100vw;
+    margin: auto;
   }
 
   .mobH {
