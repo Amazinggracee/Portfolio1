@@ -142,11 +142,11 @@ showBtn.forEach((seeBtn, index) => {
           <div class="contactBtn">
             <a href="${projects[index].live}"
               target="_blank">><button type="button" class="btnContact">
-                Seem Live <img src="images/Icon.png" alt="" / </button
+                Seem Live <img src="./images/Icon.png" alt="" / </button
             ></a>
             <a href="${projects[index].source}"
              target="_blank"> ><button type="button" class="btnContact">
-                See Source <img src="images/Icon -GitHub.png" alt="" /></button
+                See Source <img src="./Images/Icon -GitHub.png" alt="" /></button
             ></a>
           </div>
         </div>
@@ -308,7 +308,7 @@ document.querySelectorAll('.prohover').forEach((el, index) => {
             ></a>
             <a href="${projects[index].source}"
               target="_blank"><button type="button" class="btnContact">
-                See Source <img src="images/Icon -GitHub.png" alt="" /></button
+                See Source <img src="./Images/Icon -GitHub.png" alt="" /></button
             ></a>
           </div>
         </div>
