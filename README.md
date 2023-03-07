@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [porfolio] <a name="about-project">https://github.com/Amazinggracee/Portfolio</a>
+# 📖 [porfolio] <a name="about-project">https://amazinggracee.github.io/Portfolio1</a>
 
 My website Portfolio.
 
@@ -49,6 +49,10 @@ In this project:
 - [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
 - [ ] I the usefulness of transitions and animations.
 - [ ]I implemented functionality that requires JavaScript.
+- [ ] I used basic JavaScript syntax.
+- [ ] I used JavaScript to manipulate DOM elements.
+- [ ] I used JavaScript events.
+- [ ] I used objects to store and access data.
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
@@ -62,13 +66,14 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
+### Key Features <a name="key-features">
 - **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
 - **[key_feature_2]** Portfolio: Mobile Version.
 - **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
+- **[key_feature_6]** Portfolio: details popup window.
+</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
