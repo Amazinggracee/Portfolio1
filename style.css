@@ -1678,6 +1678,7 @@ footer ul {
     overflow-y: hidden;
     margin-top: 5%;
     align-items: center;
+    padding: 0;
   }
 
   .modalPop .modalHeader {
@@ -1778,7 +1779,7 @@ footer ul {
     color: var(---navy3);
     margin-left: -3rem;
     display: flex;
-    padding-right: 5rem;
+    padding-right: 0;
     margin-top: 0;
     margin-top: -2rem;
   }
@@ -1789,7 +1790,7 @@ footer ul {
     gap: 1rem;
     margin-left: -3rem;
     width: 375px;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .modalPop .modalDes #btnContact a .btnContact {
