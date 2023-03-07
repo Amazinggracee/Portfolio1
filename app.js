@@ -22,7 +22,7 @@ const projects = [
     id: 0,
     mobTitle: 'Multi Post Stories',
     deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'I shall sit here on the door-step beside my friend Paul. He is an idle fellow with folded hands. He laughs when I upbraid him, and bids me, with a motion, hold my peace.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/modal-mobile.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -32,8 +32,8 @@ const projects = [
   {
     id: 1,
     mobTitle: 'Data Dashboard Healthcare',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'He is listening to a thrush song that comes from the blur of yonder apple-tree. He tells me the thrush is singing a complaint. She wants her mate that was with her last blossom-time and builded a nest with her.',
+    deskTitle: 'Data Dashboard Healthcare',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder1.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -43,8 +43,8 @@ const projects = [
   {
     id: 2,
     mobTitle: 'Website Protfolio',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'She will have no other mate. She will call for him till she hears the notes of her beloved-ones song coming swiftly towards her across forest and field.',
+    deskTitle: 'Website Protfolio ',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -53,9 +53,9 @@ const projects = [
 
   {
     id: 3,
-    mobTitle: 'Create a Function',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'Paul is a strange fellow. He gazed idly at a billowy white cloud that rolls lazily over and over along the edge of the blue sky.',
+    mobTitle: 'Profesional Art Printing Data More',
+    deskTitle: 'Profesional Art Printing Data More ',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -64,9 +64,9 @@ const projects = [
 
   {
     id: 4,
-    mobTitle: 'Join 5 Million easy steps',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'He turns away from me and the words with which I would instruct him, to drink deep the scent of the clover-field and the thick perfume from the rose-hedge.',
+    mobTitle: 'Data Dashboard Healthcare',
+    deskTitle: 'Data Dashboard Healthcare ',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/background.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -75,9 +75,9 @@ const projects = [
 
   {
     id: 5,
-    mobTitle: 'Easy to follow',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'I am tired. At the end of these years I am very tired. I have been studying in books the languages of the living and those we call dead.',
+    mobTitle: 'Website Protfolio',
+    deskTitle: 'Website Protfolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -87,8 +87,8 @@ const projects = [
   {
     id: 6,
     mobTitle: 'Data Dashboard Fully illustrted',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'Early in the fresh morning I have studied in books, and throughout the day when the sun was shining',
+    deskTitle: 'Data Dashboard Fully illustrted ',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -97,8 +97,8 @@ const projects = [
   {
     id: 7,
     mobTitle: 'Website Protfolio',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'She will have no other mate. She will call for him till she hears the notes of her beloved-ones song coming swiftly towards her across forest and field.',
+    deskTitle: 'Website Protfolio',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',
@@ -107,8 +107,8 @@ const projects = [
   {
     id: 8,
     mobTitle: 'Data Dashboard Fully illustrted',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'Early in the fresh morning I have studied in books, and throughout the day when the sun was shining',
+    deskTitle: 'Data Dashboard Fully illustrted ',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
     live: 'https://github.com/Amazinggracee/Portfolio/',

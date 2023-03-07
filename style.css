@@ -74,14 +74,15 @@ select:focus {
   z-index: 999;
   flex-direction: column;
   gap: 1rem;
-  width: 330px;
-  left: -1rem;
+  width: 340px;
+  left: 0;
   overflow: scroll;
   bottom: 0;
   right: 0;
   margin: auto;
-  padding-right: 1rem;
+  padding-right: 0;
   padding-left: 1rem;
+  height: 620px;
 }
 
 .meDiv h2 {
@@ -99,18 +100,20 @@ select:focus {
 
 .modalPop .modalHeader h2 {
   width: 300px;
-  height: 82px;
+  height: 40px;
   font-family: "Roboto", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 24px;
   display: flex;
   flex-direction: row;
   color: var(--navy-blue2);
   gap: 1rem;
   margin: auto;
   justify-content: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .modalPop .modalHeader h2 span {
@@ -136,8 +139,8 @@ select:focus {
   list-style: none;
   margin-left: -3rem;
   width: 303px;
-  height: 70px;
-  justify-content: center;
+  height: 15px;
+  justify-content: center
 }
 
 .modalPop .modalHeader .modalTech li button {
@@ -148,7 +151,7 @@ select:focus {
 
 .modalPop .modalDes .modImg {
   width: 290px;
-  height: 256px;
+  height: 200px;
 }
 
 .modalPop .modalDes #btnContact {
@@ -237,7 +240,7 @@ select:focus {
   flex-direction: row;
   align-items: center;
   width: 120px;
-  height: 48px;
+  height: 40px;
   background: var(--orange);
   border: none;
   color: var(--white);
@@ -382,7 +385,7 @@ a {
   align-items: center;
 }
 
-nav > a {
+nav>a {
   color: var(--white);
   font-family: "Roboto", "Times New Roman", Times, serif;
   font-weight: 700;
@@ -1660,10 +1663,10 @@ footer ul {
     left: 0;
     bottom: 0;
     right: 3rem;
-    height: 620px;
+    height: 900px;
     overflow-x: hidden;
     overflow-y: hidden;
-    margin: auto;
+    margin-top: 8rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1742,7 +1745,7 @@ footer ul {
   }
 
   .modalPop .modalDes #btnContact p {
-    width: 350px;
+    width: 100%;
     height: auto;
     font-family: "Inter", "Times New Roman", Times, serif;
     font-style: normal;
@@ -1758,8 +1761,9 @@ footer ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-left: -4rem;
+    margin-left: -3rem;
     width: 350px;
+    margin-top: 1rem;
   }
 
   .modalPop .modalDes #btnContact a .btnContact {
