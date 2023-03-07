@@ -140,7 +140,7 @@ select:focus {
   margin-left: -3rem;
   width: 303px;
   height: 15px;
-  justify-content: center
+  justify-content: center;
 }
 
 .modalPop .modalHeader .modalTech li button {
@@ -385,7 +385,7 @@ a {
   align-items: center;
 }
 
-nav>a {
+nav > a {
   color: var(--white);
   font-family: "Roboto", "Times New Roman", Times, serif;
   font-weight: 700;
