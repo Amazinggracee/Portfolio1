@@ -132,7 +132,7 @@ showBtn.forEach((seeBtn, index) => {
         <ul class="modalTech">
         <li><button>${projects[index].technologies[0]}</button></li>
         <li><button>${projects[index].technologies[1]}</button></li>
-        <li><button>${projects[index].technologies[3]}</button></li>
+        <li><button>${projects[index].technologies[2]}</button></li>
         </ul>
       </div>
       <div class="modalDes">
@@ -294,7 +294,7 @@ document.querySelectorAll('.prohover').forEach((el, index) => {
         <ul class="modalTech">
         <li><button>${projects[index].technologies[0]}</button></li>
         <li><button>${projects[index].technologies[1]}</button></li>
-        <li><button>${projects[index].technologies[3]}</button></li>
+        <li><button>${projects[index].technologies[2]}</button></li>
         </ul>
       </div>
       <div class="modalDes">
