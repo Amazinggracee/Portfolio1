@@ -25,8 +25,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/modal-mobile.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -36,8 +36,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder1.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -47,8 +47,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -58,8 +58,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -69,8 +69,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/background.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -80,8 +80,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 
   {
@@ -91,8 +91,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
   {
     id: 7,
@@ -101,8 +101,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
   {
     id: 8,
@@ -111,8 +111,8 @@ const projects = [
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
-    live: 'https://github.com/Amazinggracee/Portfolio/',
-    source: '',
+    live: 'https://amazinggracee.github.io/Portfolio1/',
+    source: 'https://github.com/Amazinggracee/Portfolio1',
   },
 ];
 
@@ -142,11 +142,11 @@ showBtn.forEach((seeBtn, index) => {
 
           <div class="contactBtn">
             <a href="${projects[index].live}"
-              ><button type="button" class="btnContact">
-                Seem Live <img src="images/Icon.png" alt="" /></button
+              target="_blank">><button type="button" class="btnContact">
+                Seem Live <img src="images/Icon.png" alt="" / </button
             ></a>
             <a href="${projects[index].source}"
-              ><button type="button" class="btnContact">
+             target="_blank"> ><button type="button" class="btnContact">
                 See Source <img src="images/Icon -GitHub.png" alt="" /></button
             ></a>
           </div>
@@ -304,11 +304,11 @@ document.querySelectorAll('.prohover').forEach((el, index) => {
 
           <div class="contactBtn">
             <a href="${projects[index].live}"
-              ><button type="button" class="btnContact">
+              target="_blank"><button type="button" class="btnContact">
                 Seem Live <img src="images/Icon.png" alt="" /></button
             ></a>
             <a href="${projects[index].source}"
-              ><button type="button" class="btnContact">
+              target="_blank"><button type="button" class="btnContact">
                 See Source <img src="images/Icon -GitHub.png" alt="" /></button
             ></a>
           </div>

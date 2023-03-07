@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [porfolio] <a name="about-project">https://github.com/Amazinggracee/Portfolio</a>
+# 📖 [porfolio] <a name="about-project">https://amazinggracee.github.io/Portfolio1</a>
 
 My website Portfolio.
 
