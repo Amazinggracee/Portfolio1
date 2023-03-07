@@ -98,6 +98,14 @@ select:focus {
   text-align: center;
 }
 
+.modalPop .modalHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-self: self-start;
+  margin-left: -1rem;
+}
+
 .modalPop .modalHeader h2 {
   width: 300px;
   height: 40px;
@@ -147,6 +155,7 @@ select:focus {
   border: 1px solid var(--navy-blue2);
   font-size: 16px;
   padding: 9px;
+  background: none;
 }
 
 .modalPop .modalDes .modImg {
