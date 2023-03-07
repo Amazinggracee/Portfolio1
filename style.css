@@ -35,6 +35,7 @@
   --navy4: #8993a4;
   --bg1: rgba(255, 255, 255, 0.24);
   --dark1: #262626;
+  --white6: #ebecf0;
 }
 
 body {
@@ -68,21 +69,19 @@ select:focus {
 }
 
 .modalPop {
-  position: fixed;
-  top: 2%;
-  background-color: var(--white);
-  z-index: 999;
+  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  gap: 1rem;
-  width: 340px;
-  left: 0;
-  overflow: scroll;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  padding-right: 0;
-  padding-left: 1rem;
-  height: 620px;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  position: fixed;
+  width: 343px;
+  height: 630px;
+  left: calc(50% - 343px / 2);
+  top: 40px;
+  background: var(--white);
+  border: 1px solid var(--white6);
 }
 
 .meDiv h2 {
@@ -101,39 +100,42 @@ select:focus {
 .modalPop .modalHeader {
   display: flex;
   flex-direction: column;
-  gap: 0;
-  align-self: self-start;
-  margin-left: -1rem;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 311px;
+  height: 130px;
 }
 
 .modalPop .modalHeader h2 {
-  width: 300px;
-  height: 40px;
-  font-family: "Roboto", "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
   display: flex;
   flex-direction: row;
-  color: var(--navy-blue2);
-  gap: 1rem;
-  margin: auto;
-  justify-content: flex-start;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 311px;
+  height: 82px;
 }
 
 .modalPop .modalHeader h2 span {
-  display: flex;
-  margin: auto;
+  width: 259px;
+  height: 40px;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--navy-blue2);
 }
 
 .modalPop .modalHeader h2 .closeB {
   display: flex;
-  margin: auto;
-  padding-left: 10%;
-  color: var(--grey5);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
 }
 
 .modalPop .modalHeader .dTitle {
@@ -143,12 +145,12 @@ select:focus {
 .modalPop .modalHeader .modalTech {
   display: flex;
   flex-direction: row;
-  gap: 0.4rem;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 270px;
   list-style: none;
-  margin-left: -3rem;
-  width: 303px;
-  height: 15px;
-  justify-content: center;
+  height: 36px;
 }
 
 .modalPop .modalHeader .modalTech li button {
@@ -159,14 +161,23 @@ select:focus {
   color: var(--navy-blue2);
 }
 
-.modalPop .modalDes .modImg {
-  width: 290px;
-  height: 200px;
+.modalPop .modalDes {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 311px 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 300px;
+  height: 270px;
 }
 
 .modalPop .modalDes #btnContact {
   display: flex;
   flex-direction: column;
+  margin-top: 15rem;
 }
 
 .meDiv p {
@@ -224,16 +235,14 @@ select:focus {
 }
 
 .modalPop .modalDes #btnContact p {
-  display: flex;
-  width: 280px;
-  height: auto;
-  font-family: "Inter", "Times New Roman", Times, serif;
+  width: 311px;
+  height: 220px;
+  font-family: 'Inter', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
-  line-height: 20px;
-  color: var(---navy3);
-  margin-left: 0;
+  font-size: 13px;
+  line-height: 19px;
+  color: var(--grey4);
 }
 
 .modalPop .modalDes #btnContact .contactBtn {
@@ -241,8 +250,10 @@ select:focus {
   flex-direction: row;
   gap: 1rem;
   margin-left: 0;
-  width: 280px;
-  height: auto;
+  width: 311px;
+  height: 56px;
+  list-style: none;
+  margin-top: -5rem;
 }
 
 .modalPop .modalDes #btnContact a .btnContact {
@@ -1118,7 +1129,14 @@ footer ul {
   .modalPop .modalHeader h2 {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 1108px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   #works .worksDiv h2 {
@@ -1662,23 +1680,20 @@ footer ul {
   }
 
   .modalPop {
+    height: 580px;
+    width: 1156px;
+    border-radius: 0;
     position: fixed;
-    top: 0;
-    background-color: var(--white);
-    z-index: 999;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 80vw;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 450px;
+    left: 1rem;
+    right: 1rem;
+    top: 6rem;
+    bottom: 5rem;
+    background: var(--white);
+    border: 1px solid var(--white6);
+    box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
     overflow-x: hidden;
     overflow-y: hidden;
-    margin-top: 5%;
-    align-items: center;
-    padding: 0;
+    margin: auto;
   }
 
   .modalPop .modalHeader {
@@ -1692,15 +1707,23 @@ footer ul {
   }
 
   .modalPop .modalHeader h2 span {
-    display: flex;
-    margin: auto;
+    font-family: Crete Round, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    color: var(--navy-blue);
   }
 
   .modalPop .modalHeader h2 .closeB {
     display: flex;
-    margin: auto;
-    padding-left: 10%;
-    color: var(--grey5);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
   }
 
   .modalPop .modalHeader h2 .dTitle {
@@ -1719,8 +1742,10 @@ footer ul {
   }
 
   .modalPop .modalHeader h2 .closeIcon {
-    margin: auto;
+    display: flex;
     font-size: 33px;
+    padding-right: 7rem;
+    padding-bottom: 3rem;
   }
 
   .modalPop .modalHeader .pTitle {
@@ -1746,51 +1771,55 @@ footer ul {
     color: var(--navy-blue2);
   }
 
-  .modalDes {
+  .modalPop .modalDes {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 659px 380px;
     display: flex;
-    flex-direction: row;
-    gap: 3%;
-    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    width: 1000px;
+    height: 400px;
+    margin-top: 2rem;
+    margin-left: -6rem;
   }
 
   .modalPop .modalDes .modImg {
-    width: 80%;
-    height: 100%;
-    margin-left: 0;
+    width: 60%;
+    height: 60%;
+    margin-left: 1rem;
     margin-top: -2rem;
   }
 
   .modalPop .modalDes #btnContact {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 3rem;
+    width: 30%;
     height: auto;
+    margin: auto;
+    padding-left: 3rem;
   }
 
   .modalPop .modalDes #btnContact p {
-    width: 95%;
-    height: auto;
-    font-family: "Inter", "Times New Roman", Times, serif;
+    width: 424px;
+    height: 336px;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
-    color: var(---navy3);
-    margin-left: -3rem;
-    display: flex;
-    padding-right: 0;
-    margin-top: 0;
-    margin-top: -2rem;
+    line-height: 30px;
+    color: var(--navy-blue2);
+    margin-left: 17rem;
   }
 
   .modalPop .modalDes #btnContact .contactBtn {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-left: -3rem;
+    margin-left: 17rem;
     width: 375px;
-    margin-top: 18%;
   }
 
   .modalPop .modalDes #btnContact a .btnContact {

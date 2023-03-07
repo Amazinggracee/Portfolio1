@@ -44,7 +44,7 @@ const projects = [
     id: 2,
     mobTitle: 'Website Protfolio',
     deskTitle: 'Website Protfolio ',
-    description: 'Lorem Ipsum ok a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -55,7 +55,7 @@ const projects = [
     id: 3,
     mobTitle: 'Profesional Art Printing Data More',
     deskTitle: 'Profesional Art Printing Data More ',
-    description: 'Lorem Ipsum  a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -66,7 +66,7 @@ const projects = [
     id: 4,
     mobTitle: 'Data Dashboard Healthcare',
     deskTitle: 'Data Dashboard Healthcare ',
-    description: 'Lorem Ipsum  of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/background.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -77,7 +77,7 @@ const projects = [
     id: 5,
     mobTitle: 'Website Protfolio',
     deskTitle: 'Website Protfolio',
-    description: 'Lorem Ipsum f type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -88,7 +88,7 @@ const projects = [
     id: 6,
     mobTitle: 'Data Dashboard Fully illustrted',
     deskTitle: 'Data Dashboard Fully illustrted ',
-    description: 'Lorem Ipsum galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder3.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -98,7 +98,7 @@ const projects = [
     id: 7,
     mobTitle: 'Website Protfolio',
     deskTitle: 'Website Protfolio',
-    description: 'Lorem Ipsum  of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     technologies: ['html', 'bootstrap', 'Ruby'],
     featuredImages: './Images/placeholder2.png',
     live: 'https://amazinggracee.github.io/Portfolio1/',
@@ -135,8 +135,7 @@ showBtn.forEach((seeBtn, index) => {
         <li><button>${projects[index].technologies[2]}</button></li>
         </ul>
       </div>
-      <div class="modalDes">
-        <img class="modImg" src="${projects[index].featuredImages}" alt="Popup" />
+      <div class="modalDes" style="background-image: url(${projects[index].featuredImages});">
         <div id="btnContact">
           <p class="pDesc">${projects[index].description}</p>
 
@@ -297,8 +296,8 @@ document.querySelectorAll('.prohover').forEach((el, index) => {
         <li><button>${projects[index].technologies[2]}</button></li>
         </ul>
       </div>
-      <div class="modalDes">
-        <img class="modImg" src="${projects[index].featuredImages}" alt="Popup" />
+      <div class="modalDes" style="background-image: url(${projects[index].featuredImages});">
+       
         <div id="btnContact">
           <p class="pDesc">${projects[index].description}</p>
 
