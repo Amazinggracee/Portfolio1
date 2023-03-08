@@ -841,12 +841,26 @@ footer ul {
 }
 
 #email-error {
-  position: relative;
-  top: 100%;
-  left: 2px;
-  font-size: 16px;
-  font-weight: 400;
+  width: 100%;
+  padding: 0;
+  font-size: 30px;
   color: var(--red);
+  background: var(--white);
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+}
+
+input .invalid {
+  border-color: var(--red);
+  background: var(--lightgrey);
+}
+
+input:focus .invalid {
+  outline: none;
+}
+
+#email-error.active {
+  padding: 0.3rem;
 }
 
 .fullName {
@@ -1611,7 +1625,7 @@ footer ul {
   }
 
   #contact form #optionM {
-    display: none;
+    display: block;
   }
 
   /* form .first-last {

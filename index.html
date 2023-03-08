@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <script src="app.js" defer></script>
+  <script src="validation.js" defer></script>
 </head>
 
 <body>
@@ -207,14 +208,14 @@
         <div class="fullName">
           <input id ="optionM" type="text" name="full-name" placeholder="Your full name" id="full-name" maxlength="30" class="optionM"
             required/>
-           <div class="first-last" >
+           <!-- <div class="first-last" >
             <input  type="text" name="first-name" placeholder="Your first name." id="first-name" maxlength="30"
               class="optionD" required />
               <input type="text" name="surname-name" placeholder="Your surname." id="surname" maxlength="30"
                 class="optionD" required />
-           </div>
-          <input id="email-field" type="email" placeholder="ade@gmail.com" spellcheck="false" required onkeyup="validateEmail()">
-          <span id="email-error"></span>
+           </div> -->
+          <input id="email-field" type="email" placeholder="ade@gmail.com" required >
+          <span id="email-error" class="error" aria-live="polite"></span>
           <textarea name="messagem" id="messageM" rows="5" cols="30" maxlength="500" placeholder="Enter text here"
             required></textarea>
           <button type="submit" id="submit-btn" class="callMe">
