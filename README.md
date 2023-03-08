@@ -42,17 +42,18 @@ In this project:
 - [ ] I created a form with HTML5 validations.
 - [ ] I understood the importance of UX.
 - [ ] I understood how to parse a Figma design to create a UI.
-- [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
-- [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
-
-- [ ]I did not implement any functionality that requires JavaScript
-- [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
-- [ ] I the usefulness of transitions and animations.
-- [ ]I implemented functionality that requires JavaScript.
-- [ ] I used basic JavaScript syntax.
-- [ ] I used JavaScript to manipulate DOM elements.
-- [ ] I used JavaScript events.
-- [ ] I used objects to store and access data.
+- [ ] We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
+- [ ] In order to lay out the elements on the page we used use Grid and Flexbox.
+- [ ] we did not implement any functionality that requires JavaScript
+- [ ] we replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
+- [ ] we the usefulness of transitions and animations.
+- [ ] we implemented functionality that requires JavaScript.
+- [ ] we used basic JavaScript syntax.
+- [ ] we used JavaScript to manipulate DOM elements.
+- [ ] we used JavaScript events.
+- [ ] we used objects to store and access data.
+- [ ] We processed user input according to business rules.
+- [ ] we use client-side validation to catch and throw errors in the UI.
 
 # 🛠 Built With <a name="built-with">Technologies</a>
 
@@ -73,6 +74,7 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
 - **[key_feature_6]** Portfolio: details popup window.
+- **[key_feature_7]**Portfolio: validate contact form.
 </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

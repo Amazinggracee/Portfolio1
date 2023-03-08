@@ -36,6 +36,7 @@
   --bg1: rgba(255, 255, 255, 0.24);
   --dark1: #262626;
   --white6: #ebecf0;
+  --red: #fd0606;
 }
 
 body {
@@ -66,6 +67,13 @@ select:focus {
 
 #modalPop {
   display: none;
+}
+
+form p { display: none; }
+
+input:focus,
+textarea:focus {
+  background-color: lightyellow;
 }
 
 .modalPop {
@@ -817,6 +825,28 @@ footer ul {
 
 #contact form {
   margin-left: 3%;
+}
+
+#email-field {
+  display: block;
+  width: 375px;
+  border: 0;
+  border-bottom: 2px solid var(--grey5);
+  background: transparent;
+  outline: none;
+  font-size: 26px;
+  padding: 5px 2px;
+  position: relative;
+  z-index: 10;
+}
+
+#email-error {
+  position: relative;
+  top: 100%;
+  left: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--red);
 }
 
 .fullName {
@@ -1580,21 +1610,29 @@ footer ul {
     padding-top: 5rem;
   }
 
-  form .fullName {
+  #contact form #optionM {
     display: none;
   }
 
-  form .first-last {
+  /* form .first-last {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 47vw;
     margin: auto;
-  }
+  } */
 
-  form .first-last div {
+  form .first-last {
     display: flex;
     gap: 0.3rem;
+  }
+
+  .fullName {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: auto;
+    height: auto;
   }
 
   #contact form input {
@@ -1610,7 +1648,7 @@ footer ul {
     width: 45vw;
   }
 
-  #contact form .first-last div input {
+  #contact form .first-last input {
     width: 22vw;
   }
 

@@ -1,277 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Amazingracee Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Poppins:ital,
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Amazingracee Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Poppins:ital,
                 wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet" /> -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <script src="app.js" defer></script>
-  </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <script src="app.js" defer></script>
+</head>
 
-  <body>
-    <!-- ----------------------------------navBar------------------------------------- -->
-    <div id="all-element">
-      <nav title="navigation menu" class="container">
-        <a href="#home">Amara</a>
+<body>
+  <!-- ----------------------------------navBar------------------------------------- -->
+  <div id="all-element">
+    <nav title="navigation menu" class="container">
+      <a href="#home">Amara</a>
 
-        <ul class="menu-list">
-          <li>
-            <a class="menuItem" href="#portfolio" onclick="toggleMenu()"
-              >Portfolio</a
-            >
-          </li>
+      <ul class="menu-list">
+        <li>
+          <a class="menuItem" href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+        </li>
 
-          <li>
-            <a class="menuItem about-2" href="#about" onclick="toggleMenu()"
-              >About</a
-            >
-          </li>
+        <li>
+          <a class="menuItem about-2" href="#about" onclick="toggleMenu()">About</a>
+        </li>
 
-          <li>
-            <a class="menuItem" href="#contact" onclick="toggleMenu()"
-              >Contacts</a
-            >
-          </li>
+        <li>
+          <a class="menuItem" href="#contact" onclick="toggleMenu()">Contacts</a>
+        </li>
 
-          <li>
-            <a class="menuItem" href="#contact" onclick="toggleMenu()"
-              ><img src="./Images/envelope.png" alt=""
-            /></a>
-          </li>
-        </ul>
+        <li>
+          <a class="menuItem" href="#contact" onclick="toggleMenu()"><img src="./Images/envelope.png" alt="" /></a>
+        </li>
+      </ul>
 
-        <ul class="list">
-          <li>
-            <a class="menuItem" href="#portfolio">Portfolio</a>
-          </li>
+      <ul class="list">
+        <li>
+          <a class="menuItem" href="#portfolio">Portfolio</a>
+        </li>
 
-          <li>
-            <a class="menuItem about-2" href="#about">About</a>
-          </li>
+        <li>
+          <a class="menuItem about-2" href="#about">About</a>
+        </li>
 
-          <li>
-            <a class="menuItem" href="#contact">Contacts</a>
-          </li>
+        <li>
+          <a class="menuItem" href="#contact">Contacts</a>
+        </li>
 
-          <li>
-            <a class="menuItem" href="#contact"
-              ><img src="./Images/envelope.png" alt=""
-            /></a>
-          </li>
-        </ul>
-        <button class="btn-hamburger">
-          <i class="burgerIcon material-icons">menu</i>
-          <i class="closeIcon material-icons">close</i>
-        </button>
-      </nav>
+        <li>
+          <a class="menuItem" href="#contact"><img src="./Images/envelope.png" alt="" /></a>
+        </li>
+      </ul>
+      <button class="btn-hamburger">
+        <i class="burgerIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+    </nav>
 
-      <!-- -----------------------------------Intro Section-------------------------------- -->
-      
-      <section id="intro">
-        <div class="introDiv">
-          <h1>Hey there. I'm Amara</h1>
-          <h5>I'am a Software Developer</h5>
-          <p>
-            I can help you build a product , feature or website Look through some
-            of my work and experience! If you like what you see and have a project
-            you need coded, don't hestiate to contact me.
-          </p>
-        </div>
-        <ul class="social">
-          <li>
-            <a href="https://github.com/Amazinggracee" target="_blank"><img src="./Images/Icon -GitHub.png" alt="Github-icon" /></a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/amarachi-dimkpa-070643183" target="_blank"><img src="./Images/Icon - Linkedin.png" alt="LinkedIn-icon" /></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="./Images/Icon - Angelist.png" alt="Angelist-icon" /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/amazinggraceu" target="_blank"><img src="./Images/Icon - Twitter.png" alt="Twitter-icon" /></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="./Images/Icon - Medium.png" alt="Medium-icon" /></a>
-          </li>
-        </ul>
-      </section>
-      <!-- -------------------------------works section------------------------------------ -->
-      
-      <section id="works">
-        <div class="worksDiv">
-          <h2>My Recent Works</h2>
-          <hr class="hidehr">
-        </div>
-      
-        <div class="rightFlex" id="portfolio">
-          <h5>Multi-Post Stories</h5>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a standard dummy text.
-          </p>
-      
-          <ul class="btnLang">
-            <li>css</li>
-            <li>html</li>
-            <li>bootstrap</li>
-          </ul>
-          <button type="button" class="project1 prohover" id="project0">
-            See Project
-          </button>
-        </div>
-      
-      </section>
-      
-      <!-- ---------------------------Project cards------------------------------------ -->
-      
-      
-      <div class="modalPop" id="modalPop">
+    <!-- -----------------------------------Intro Section-------------------------------- -->
+
+    <section id="intro">
+      <div class="introDiv">
+        <h1>Hey there. I'm Amara</h1>
+        <h5>I'am a Software Developer</h5>
+        <p>
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don't hestiate to contact me.
+        </p>
       </div>
-      
-      
-      
-      <section class="allProjects">
-      
-      
-      </section>
-      
-      <!-- ------------------------------About me-------------------------------------- -->
-      
-      <section id="aboutSec">
-        <div class="meDiv" id="about">
-          <h2>About me</h2>
-          <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If you
-            like what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-      
-          <button type="button" class="btnAbout">Get My Resume</button>
-        </div>
-        <hr />
-      
-        <div class="mainLang">
-          <div>
-      
-            <ul>
-              <li class="boldH">
-                <img src="./Images/Rectangle 55.png" alt="shifted square" />Language
-              </li>
-              <li>Javascript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>Css</li>
-            </ul>
-          </div>
-          <div>
-      
-            <ul>
-              <li class="boldH">
-                <img src="./Images/Rectangle 56.png" alt="square" />Frameworks
-              </li>
-              <li>Bootstrap</li>
-              <li>RSPec</li>
-              <li>Ruby on Rails</li>
-              <li>CapyBara</li>
-              <li>Selenium</li>
-            </ul>
-          </div>
-          <div>
-      
-            <ul id="shift">
-              <li class="boldH">
-                <img src="./Images/Rectangle 57.png" alt="circle" />Skills
-              </li>
-              <li>Codekit</li>
-              <li>Github</li>
-              <li>Gitlab</li>
-              <li>Terminal</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      
-      <!-- ----------------------------contact secttion------------------------------------- -->
-      
-      <section class="contact" id="contact">
-        <h3>
-          I'm always interested in hearing about new projects, so if you'd like to
-          chat please get in touch.
-        </h3>
-        <form action="https://formspree.io/f/maykrgwn" method="post" id="register">
-          <div class="fullName">
-            <input type="text" name="name" placeholder="First-name" id="First-name" maxlength="30" class="optionD" required />
-            <input type="email" name="email" placeholder="Email address" id="email" required />
-            <textarea name="message" id="message" rows="5" cols="30" maxlength="500" placeholder="Enter text here"
-              required></textarea>
-            <!-- <p class="error-message">Message  not sent!  Please,  use lower case letters for your email</p> -->
-            <button type="submit" id="submit-btn" class="callMe">
-              Get in touch
-            </button>
-          </div>
-      
-          <div class="first-last">
-            <div>
-              <input type="text" name="name" placeholder="First-name" id="First-name" maxlength="30" class="optionD"
-                required />
-              <input type="text" name="name" placeholder="Last-name" id="Last-name" maxlength="30" class="optionD" required />
-            </div>
-            <input type="email" name="email" placeholder="Email address" id="email" required />
-            <textarea name="message" id="message" rows="5" cols="30" maxlength="500"
-              placeholder="Hello Mariane. I would like to get in touch with you..." required></textarea>
-            <!-- <p class="error-message">Message  not sent!  Please,  use lower case letters for your email</p> -->
-            <button type="submit" id="submit-btn" class="callMe">
-              Get in touch
-            </button>
-          </div>
-        </form>
-      </section>
-      
-      <!-- -----------------------------footer------------------------------------- -->
-      
-      <footer>
-      
-        <ul>
-          <li>
-            <a href="https://github.com/Amazinggracee" target="_blank"><img src="./Images/GitHub-dark.png" alt="Github-icon" /></a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/amarachi-dimkpa-070643183" target="_blank"><img src="./Images/Linkedin-dark.png" alt="LinkedIn-icon" /></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="./Images/Angelist-dark.png" alt="Angelist-icon" /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/amazinggraceu" target="_blank"><img src="./Images/Twitter-dark.png" alt="Twitter-icon" /></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="./Images/Medium-dark.png" alt="Medium-icon" /></a>
-          </li>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/Amazinggracee" target="_blank"><img src="./Images/Icon -GitHub.png"
+              alt="Github-icon" /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/amarachi-dimkpa-070643183" target="_blank"><img
+              src="./Images/Icon - Linkedin.png" alt="LinkedIn-icon" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img src="./Images/Icon - Angelist.png" alt="Angelist-icon" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/amazinggraceu" target="_blank"><img src="./Images/Icon - Twitter.png"
+              alt="Twitter-icon" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img src="./Images/Icon - Medium.png" alt="Medium-icon" /></a>
+        </li>
+      </ul>
+    </section>
+    <!-- -------------------------------works section------------------------------------ -->
+
+    <section id="works">
+      <div class="worksDiv">
+        <h2>My Recent Works</h2>
+        <hr class="hidehr">
+      </div>
+
+      <div class="rightFlex" id="portfolio">
+        <h5>Multi-Post Stories</h5>
+        <p>
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+
+        <ul class="btnLang">
+          <li>css</li>
+          <li>html</li>
+          <li>bootstrap</li>
         </ul>
-      
-      </footer>
+        <button type="button" class="project1 prohover" id="project0">
+          See Project
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ---------------------------Project cards------------------------------------ -->
+
+
+    <div class="modalPop" id="modalPop">
     </div>
 
-    <!-- <script src="app.js"></script> -->
-  </body>
+
+
+    <section class="allProjects">
+
+
+    </section>
+
+    <!-- ------------------------------About me-------------------------------------- -->
+
+    <section id="aboutSec">
+      <div class="meDiv" id="about">
+        <h2>About me</h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+
+        <button type="button" class="btnAbout">Get My Resume</button>
+      </div>
+      <hr />
+
+      <div class="mainLang">
+        <div>
+
+          <ul>
+            <li class="boldH">
+              <img src="./Images/Rectangle 55.png" alt="shifted square" />Language
+            </li>
+            <li>Javascript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>Css</li>
+          </ul>
+        </div>
+        <div>
+
+          <ul>
+            <li class="boldH">
+              <img src="./Images/Rectangle 56.png" alt="square" />Frameworks
+            </li>
+            <li>Bootstrap</li>
+            <li>RSPec</li>
+            <li>Ruby on Rails</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div>
+
+          <ul id="shift">
+            <li class="boldH">
+              <img src="./Images/Rectangle 57.png" alt="circle" />Skills
+            </li>
+            <li>Codekit</li>
+            <li>Github</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------contact secttion------------------------------------- -->
+
+    <section class="contact" id="contact">
+      <h3>
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h3>
+      <form action="https://formspree.io/f/maykrgwn" method="post" id="register" class="form">
+        <div class="fullName">
+          <input id ="optionM" type="text" name="full-name" placeholder="Your full name" id="full-name" maxlength="30" class="optionM"
+            required/>
+           <div class="first-last" >
+            <input  type="text" name="first-name" placeholder="Your first name." id="first-name" maxlength="30"
+              class="optionD" required />
+              <input type="text" name="surname-name" placeholder="Your surname." id="surname" maxlength="30"
+                class="optionD" required />
+           </div>
+          <input id="email-field" type="email" placeholder="ade@gmail.com" spellcheck="false" required onkeyup="validateEmail()">
+          <span id="email-error"></span>
+          <textarea name="messagem" id="messageM" rows="5" cols="30" maxlength="500" placeholder="Enter text here"
+            required></textarea>
+          <button type="submit" id="submit-btn" class="callMe">
+            Get in touch
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- -----------------------------footer------------------------------------- -->
+
+    <footer>
+
+      <ul>
+        <li>
+          <a href="https://github.com/Amazinggracee" target="_blank"><img src="./Images/GitHub-dark.png"
+              alt="Github-icon" /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/amarachi-dimkpa-070643183" target="_blank"><img
+              src="./Images/Linkedin-dark.png" alt="LinkedIn-icon" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img src="./Images/Angelist-dark.png" alt="Angelist-icon" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/amazinggraceu" target="_blank"><img src="./Images/Twitter-dark.png"
+              alt="Twitter-icon" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img src="./Images/Medium-dark.png" alt="Medium-icon" /></a>
+        </li>
+      </ul>
+
+    </footer>
+  </div>
+
+  <!-- <script src="app.js"></script> -->
+</body>
+
 </html>

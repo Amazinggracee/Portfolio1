@@ -323,3 +323,18 @@ modalPop.addEventListener('click', (e) => {
     allElement.classList.remove('blur');
   }
 });
+
+// validation
+const emailField = document.getElementById('email-field');
+const emailError = document.getElementById('email-error');
+
+function validateEmail() {
+  if (!emailField.value.match(/^[a-z]+$/g)) {
+    emailError.innerHTML = 'Message  not sent!  Please,  use lower case letters for your email';
+    return false;
+  }
+  emailError.innerHTML = '';
+  return true;
+}
+
+// validateEmail();
