@@ -1,37 +1,36 @@
-const form = document.querySelector('form');
+const form = document.querySelector('.form');
 const email = document.querySelector('#email-field');
 const error = email.nextElementSibling;
+const nameInput = document.querySelector('#full-name');
+const isValid = (email) => !/([A-Z])/g.test(email);
 
-const emailRegExp = /^[a-z0-9.@]+$/g;
-
-window.addEventListener('load', () => {
-  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
-  email.className = isValid
-    ? 'valid' : 'invalid';
-});
-
-email.addEventListener('input', () => {
-  const isValid = email.length === 0 || emailRegExp.test(email.value);
-  if (isValid) {
-    email.className = 'valid';
-    error.textContent = '';
-    error.className = 'error';
-  } else {
-    email.className = 'invalid';
-  }
-});
+// Local Storage
+const savedData = {};
+const save = () => {
+  savedData.name = nameInput.value;
+  savedData.email = email.value;
+  localStorage.setItem('savedData', JSON.stringify(savedData));
+};
+const retrieve = () => {
+  const retrieveData = JSON.parse(localStorage.getItem('savedData'));
+  nameInput.value = retrieveData.name;
+  email.value = retrieveData.email;
+};
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
-  if (!isValid) {
-    email.className = 'invalid';
+  if (!isValid(email.value)) {
+    event.preventDefault();
     error.textContent = 'I expect only lowercase my dear!';
     error.className = 'error active';
   } else {
+    form.submit();
     email.className = 'valid';
     error.textContent = '';
     error.className = 'error';
+    save();
   }
+});
+
+window.addEventListener('load', () => {
+  retrieve();
 });
