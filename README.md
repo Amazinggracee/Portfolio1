@@ -54,7 +54,12 @@ In this project:
 - [ ] we used objects to store and access data.
 - [ ] We processed user input according to business rules.
 - [ ] we use client-side validation to catch and throw errors in the UI.
-
+- [ ] we implemented the following interactions:
+      - When the user changes the content of any input field, the data is saved to the local storage.
+      - When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
+- [ ] we used the following data model:
+      - we created a single JavaScript object with all the data from the entire form and save it in local storage. 
+      
 # 🛠 Built With <a name="built-with">Technologies</a>
 
 - HTML
@@ -74,7 +79,8 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
 - **[key_feature_6]** Portfolio: details popup window.
-- **[key_feature_7]**Portfolio: validate contact form.
+- **[key_feature_7]** Portfolio: validate contact form.
+- **[key_feature_8]** Portfolio: preserve data in the browser.
 </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
