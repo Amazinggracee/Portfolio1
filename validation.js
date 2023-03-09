@@ -1,6 +1,6 @@
 const form = document.querySelector('.form');
 const email = document.querySelector('#email-field');
-const message = document.querySelector('#messageM');
+const messageMe = document.querySelector('#messageM');
 const error = email.nextElementSibling;
 const nameInput = document.querySelector('#full-name');
 const isValid = (email) => !/([A-Z])/g.test(email);
@@ -10,14 +10,14 @@ const savedData = {};
 const save = () => {
   savedData.name = nameInput.value;
   savedData.email = email.value;
-  savedData.message = message.value;
+  savedData.message = messageMe.value;
   localStorage.setItem('savedData', JSON.stringify(savedData));
 };
 const retrieve = () => {
   const retrieveData = JSON.parse(localStorage.getItem('savedData'));
   nameInput.value = retrieveData.name;
   email.value = retrieveData.email;
-  message.value = retrieveData.message;
+  messageMe.value = retrieveData.message;
 };
 
 form.addEventListener('submit', (event) => {
