@@ -79,8 +79,8 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 - **[key_feature_4]** Portfolio: desktop version.
 - **[key_feature_5]** Portfolio - mobile menu.
 - **[key_feature_6]** Portfolio: details popup window.
-- **[key_feature_7]**Portfolio: validate contact form.
-
+- **[key_feature_7]** Portfolio: validate contact form.
+- **[key_feature_8]** Portfolio: preserve data in the browser.
 </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
