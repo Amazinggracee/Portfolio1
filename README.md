@@ -119,6 +119,12 @@ In order to run this project you need:
 - Twitter: [@rushemaa](https://twitter.com/rushemaa)
 - LinkedIn: [Rushema Anicet](https://www.linkedin.com/in/rushema-anicet-77494088/)
 
+👤 **Umair Hamza**
+
+- GitHub: [@emhamza](https://github.com/emhamza)
+- Twitter: [@uhamzaz](https://twitter.com/uhamzaz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/umair-hamza-a8262b261/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
