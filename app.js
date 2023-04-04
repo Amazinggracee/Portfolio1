@@ -20,99 +20,109 @@ hamburger.addEventListener('click', toggleMenu);
 const projects = [
   {
     id: 0,
-    mobTitle: 'Multi Post Stories',
-    deskTitle: 'Keeping track of hundreds of components website ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/modal-mobile.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "capstone Project",
+    deskTitle: "Team Event",
+    description:
+      'This Capstone Project is based on an online website for a conference with a slogan "Reduce, Reuse and Recycle".',
+    technologies: ["HTML", "CSS", "JavaScript"],
+    featuredImages: "./Images/capstone-desk.png",
+    featuredImagesmob: "./Images/capstone-mob.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 1,
-    mobTitle: 'Data Dashboard Healthcare',
-    deskTitle: 'Data Dashboard Healthcare',
-    description: 'Lorem Ipsum printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder1.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "capstone Project",
+    deskTitle: "capstone Project",
+    description:
+      'This Capstone Project is based on an online website for a conference with a slogan "Reduce, Reuse and Recycle".',
+    technologies: ["HTML", "CSS", "JavaScript"],
+    featuredImages: "./Images/capstone-mob.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 2,
-    mobTitle: 'Website Protfolio',
-    deskTitle: 'Website Protfolio ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder2.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Website Protfolio",
+    deskTitle: "Website Protfolio ",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder2.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 3,
-    mobTitle: 'Profesional Art Printing Data More',
-    deskTitle: 'Profesional Art Printing Data More ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder3.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Profesional Art Printing Data More",
+    deskTitle: "Profesional Art Printing Data More ",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder3.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 4,
-    mobTitle: 'Data Dashboard Healthcare',
-    deskTitle: 'Data Dashboard Healthcare ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/background.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Awesome-books",
+    deskTitle: "Awesome-books",
+    description:
+      "This Awesome books project is based on an online website that allows users to add/remove books and their authors from a list of books or to form a library of books which are stored in a local storage.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/pix2.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 5,
-    mobTitle: 'Website Protfolio',
-    deskTitle: 'Website Protfolio',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder2.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Website Protfolio",
+    deskTitle: "Website Protfolio",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder2.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 
   {
     id: 6,
-    mobTitle: 'Data Dashboard Fully illustrted',
-    deskTitle: 'Data Dashboard Fully illustrted ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder3.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Data Dashboard Fully illustrted",
+    deskTitle: "Data Dashboard Fully illustrted ",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder3.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
   {
     id: 7,
-    mobTitle: 'Website Protfolio',
-    deskTitle: 'Website Protfolio',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder2.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Website Protfolio",
+    deskTitle: "Website Protfolio",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder2.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
   {
     id: 8,
-    mobTitle: 'Data Dashboard Fully illustrted',
-    deskTitle: 'Data Dashboard Fully illustrted ',
-    description: 'Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    featuredImages: './Images/placeholder3.png',
-    live: 'https://amazinggracee.github.io/Portfolio1/',
-    source: 'https://github.com/Amazinggracee/Portfolio1',
+    mobTitle: "Data Dashboard Fully illustrted",
+    deskTitle: "Data Dashboard Fully illustrted ",
+    description:
+      "Lorem Ipsum  took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    technologies: ["html", "bootstrap", "Ruby"],
+    featuredImages: "./Images/placeholder3.png",
+    live: "https://amazinggracee.github.io/Portfolio1/",
+    source: "https://github.com/Amazinggracee/Portfolio1",
   },
 ];
 
@@ -136,6 +146,7 @@ showBtn.forEach((seeBtn, index) => {
         </ul>
       </div>
       <div class="modalDes" style="background-image: url(${projects[index].featuredImages});">
+      <div class="modalMob" style="background-image: url(${projects[index].featuredImagesmob});">
         <div id="btnContact">
           <p class="pDesc">${projects[index].description}</p>
 
