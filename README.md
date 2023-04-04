@@ -88,7 +88,7 @@ The entire project was built with only HTML5, CSS3 and JavaScript.
 
 ## 🚀 Live Demo <a name="live-demo">demo</a>
 
-- [Live Demo Link]
+- [Live Demo Link] https://amazinggracee.github.io/Portfolio1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
