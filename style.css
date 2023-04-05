@@ -62,14 +62,17 @@ select:focus {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
-  -ms-filter: blur(5px);
+
+  /* -ms-filter: blur(5px); */
 }
 
 #modalPop {
   display: none;
 }
 
-form p { display: none; }
+form p {
+  display: none;
+}
 
 input:focus,
 textarea:focus {
@@ -289,7 +292,6 @@ textarea:focus {
     animation-duration: 3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-timing-function: circle;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -302,14 +304,14 @@ textarea:focus {
 
   @keyframes my-animation {
     from {
-      background-color: none;
+      background-color: transparent;
       width: 100%;
       left: 0;
       top: 45px;
     }
 
     to {
-      background-color: none;
+      background-color: transparent;
       width: 50%;
       left: 600px;
       top: 45px;
@@ -1718,6 +1720,10 @@ input:focus .invalid {
   /* -----------------------------modai style-------------------------------------- */
 
   #modalPop {
+    display: none;
+  }
+
+  .modalPop #mobImg {
     display: none;
   }
 
