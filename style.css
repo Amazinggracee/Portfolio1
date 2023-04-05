@@ -69,7 +69,9 @@ select:focus {
   display: none;
 }
 
-form p { display: none; }
+form p {
+  display: none;
+}
 
 input:focus,
 textarea:focus {
@@ -1718,6 +1720,10 @@ input:focus .invalid {
   /* -----------------------------modai style-------------------------------------- */
 
   #modalPop {
+    display: none;
+  }
+
+  .modalPop #mobImg {
     display: none;
   }
 
